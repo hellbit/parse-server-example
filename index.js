@@ -20,8 +20,8 @@ if (process.env.FCM_API_KEY) {
 if (process.env.APNS_ENABLE) {
     pushConfig['ios'] = [
         {
-            pfx: 'ParsePushDevelopmentCertificate.p12', // P12 file only
-            bundleId: 'beta.codepath.parsetesting',  // change to match bundleId
+            pfx: 'd1.p12', // P12 file only
+            bundleId: 'mushketmobile.Relate',  // change to match bundleId
             production: false // dev certificate
         }
     ]
